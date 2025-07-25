@@ -12,7 +12,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
-  
   "browserslist": {
     "production": [
       ">0.2%",
@@ -23,9 +22,6 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-     "dependencies": {
-    "react-scripts": "^5.0.1"
-  }
+    ]
   }
 }
