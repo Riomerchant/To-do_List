@@ -4,7 +4,7 @@ import json
 import os
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
+CORS(app, resources={r"/*": {"origins": "https://to-do-list-vx26.vercel.app"}})
 
 DATA_FILE = 'db.json'
 
