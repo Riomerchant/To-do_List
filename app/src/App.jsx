@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css'; // Import the CSS file for styling
 
-const API_URL = 'https://to-do-list-two-sand-94.vercel.app';
+const API_URL = 'https://to-do-list-6sbtoe5to-riomerchants-projects.vercel.app';
 
 fetch(`${API_URL}/tasks`, {
   method: "POST","GET","UPDATE" , "DELETE"
