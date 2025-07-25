@@ -2,7 +2,15 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css'; // Import the CSS file for styling
 
-const API_URL = 'https://to-do-list-two-sand-94.vercel.app/tasks';
+const API_URL = 'https://to-do-list-two-sand-94.vercel.app';
+
+fetch(`${API_URL}/tasks`, {
+  method: "POST","GET","UPDATE" , "DELETE"
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(newTask),
+})
 
 const App = () => {
   const [tasks, setTasks] = useState([]);
